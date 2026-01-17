@@ -111,9 +111,10 @@ body {
     gap: 10px;
 }
 
-.nav-item i, .nav-icon-img {
-    width: 20px;
+.nav-item i {
+    width: 25px;         
     text-align: center;
+    font-size: 1.1rem;   
 }
 .nav-icon-img { height: 20px; object-fit: contain;}
 
@@ -345,4 +346,5 @@ h2.page-title img { height: 20px; filter: brightness(0) invert(1);}
 }
 .log-table tbody tr:hover {
     background-color: #e0e7de;
+
 }
