@@ -126,7 +126,9 @@ body {
     background-color: var(--nav-active-bg);
     color: var(--text-light);
 }
-.nav-item.active .nav-icon-img { filter: brightness(0) invert(1); }
+.nav-item.active i {
+    color: white !important;
+}
 
 /* --- Main Content Area --- */
 .main-content {
@@ -348,3 +350,4 @@ h2.page-title img { height: 20px; filter: brightness(0) invert(1);}
     background-color: #e0e7de;
 
 }
+
