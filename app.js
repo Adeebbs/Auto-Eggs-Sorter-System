@@ -65,10 +65,10 @@ const views = {
         </div>
     `,
    'eggs-info': `
-        <div class="animate-in">
-            <h2 class="page-title">
-                <i class="fas fa-egg"></i> Eggs Info
-            </h2>
+    <div class="animate-in">
+        <h2 class="page-title">
+            <i class="fas fa-egg"></i> Eggs Info
+        </h2>
             
             <div class="summary-cards-grid">
                 <div class="summary-card">
@@ -512,4 +512,5 @@ function getSimulatedHistoricalData() {
 // Start the app
 
 document.addEventListener('DOMContentLoaded', init);
+
 
