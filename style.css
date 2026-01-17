@@ -164,8 +164,11 @@ h2.page-title {
     margin-bottom: 25px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
-h2.page-title i, h2.page-title img { margin-right: 10px; }
-h2.page-title img { height: 20px; filter: brightness(0) invert(1);}
+h2.page-title i { 
+    margin-right: 12px; 
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
 
 
 /* --- Dashboard Specific --- */
@@ -350,4 +353,5 @@ h2.page-title img { height: 20px; filter: brightness(0) invert(1);}
     background-color: #e0e7de;
 
 }
+
 
