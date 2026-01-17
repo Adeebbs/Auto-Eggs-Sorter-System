@@ -64,10 +64,10 @@ const views = {
              </div>
         </div>
     `,
-    'eggs-info': `
+   'eggs-info': `
         <div class="animate-in">
             <h2 class="page-title">
-                <img src="https://cdn-icons-png.flaticon.com/512/2933/2933942.png" alt=""> Eggs Info
+                <i class="fas fa-egg"></i> Eggs Info
             </h2>
             
             <div class="summary-cards-grid">
@@ -512,3 +512,4 @@ function getSimulatedHistoricalData() {
 // Start the app
 
 document.addEventListener('DOMContentLoaded', init);
+
