@@ -113,7 +113,7 @@ const views = {
                             <tr>
                                 <th>GRADE</th>
                                 <th>TOTAL EGGS</th>
-                                <th>TOTAL REJECTED</th>
+                                <th>TOTAL EGGS COLLECTED</th>
                             </tr>
                         </thead>
                         <tbody id="daily-table-body">
@@ -128,7 +128,7 @@ const views = {
                             <tr>
                                 <th>GRADE</th>
                                 <th>TOTAL EGGS</th>
-                                <th>TOTAL REJECTED</th>
+                                <th>TOTAL EGGS COLLECTED</th>
                             </tr>
                         </thead>
                         <tbody id="weekly-table-body">
@@ -143,7 +143,7 @@ const views = {
                             <tr>
                                 <th>GRADE</th>
                                 <th>TOTAL EGGS</th>
-                                <th>TOTAL REJECTED</th>
+                                <th>TOTAL EGGS COLLECTED</th>
                             </tr>
                         </thead>
                         <tbody id="monthly-table-body">
@@ -421,7 +421,7 @@ function renderSummaryTable(tbodyId, counts) {
             <tr>
                 <td>${grade}</td>
                 <td>${counts[grade]}</td>
-                <td></td> 
+                <td>${counts[grade]}</td> 
             </tr>
         `;
     }).join('');
@@ -512,5 +512,6 @@ function getSimulatedHistoricalData() {
 // Start the app
 
 document.addEventListener('DOMContentLoaded', init);
+
 
 
