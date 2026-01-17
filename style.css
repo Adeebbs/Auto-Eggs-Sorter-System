@@ -295,7 +295,7 @@ h2.page-title i {
 }
 
 .styled-table {
-    width: 90%;
+    width: 75%; 
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 0.9rem;
@@ -312,7 +312,7 @@ h2.page-title i {
 }
 
 .styled-table th, .styled-table td {
-    padding: 12px 8px;
+    padding: 15px 10px; 
     border: 2px solid black;
     text-align: center;
     font-weight: bold;
@@ -353,5 +353,6 @@ h2.page-title i {
     background-color: #e0e7de;
 
 }
+
 
 
