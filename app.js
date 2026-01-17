@@ -31,7 +31,7 @@ const views = {
                 </div>
             </div>
             <div class="dashboard-info">
-                In a high-volume environment, consistency is everything. Manual sorting is prone to fatigue and inconsistency. Our Auto Egg Sorter provides 99.9% accuracy, ensuring your packaging meets regulatory standards every single time.
+                Smart Automation Meets Poultry Management Our Auto Egg Sorter system is designed to bridge the gap between manual labor and industrial efficiency. By integrating high-speed sensors and intelligent software.
             </div>
         </div>
     `,
@@ -510,4 +510,5 @@ function getSimulatedHistoricalData() {
 }
 
 // Start the app
+
 document.addEventListener('DOMContentLoaded', init);
