@@ -184,7 +184,7 @@ h2.page-title i {
 .dashboard-banner {
     /* Placeholder for the farm illustration */
     min-height: 250px;
-    background-image: url('https://img.freepik.com/free-vector/organic-farming-concept_23-2148671769.jpg?w=1380&t=st=1705507000~exp=1705507600~hmac=e084952670672437879743177448373516478293624687498858916189105674'); /* Example placeholder image */
+    background-image: url('banner.png'); /* Example placeholder image */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -353,6 +353,7 @@ h2.page-title i {
     background-color: #e0e7de;
 
 }
+
 
 
 
