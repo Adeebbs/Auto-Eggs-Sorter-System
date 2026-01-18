@@ -1,8 +1,5 @@
 // === Configuration ===
 const API_URL = 'https://script.google.com/macros/s/AKfycbzrmjSFV-U6VYkNCk1WUXEAq0hrH0ruUeZxykv_zyKD3bDudetkChwLAkzrTUFkzcugbg/exec';
-// IMPORTANT: For testing purposes, since we don't have real historical data flowing in today,
-// we fix the "current date" to match your designs.
-// IN PRODUCTION: change this to: const NOW = new Date();
 const REFERENCE_NOW = new Date('2026-01-18T17:35:26+08:00'); 
 
 // Global state to hold fetched data
@@ -237,17 +234,6 @@ function startMalaysiaClock() {
 // === API & Data Handling ===
 async function fetchData() {
     try {
-        // Note: The 'no-cors' mode is used here because Google Apps Script web apps
-        // often have CORS issues when called directly from a browser.
-        // However, 'no-cors' results in an opaque response that you cannot read JSON from.
-        // IF YOUR API CORRECTLY HANDLES CORS, remove {mode: 'no-cors'}.
-        // If it doesn't, you need a proxy or the API script needs to set CORS headers.
-        
-        // *** CRITICAL ASSUMPTION FOR THIS DEMO CODE ***
-        // Because I cannot actually fetch your data due to CORS/security in this environment,
-        // I am simulating a successful fetch with placeholder data structure based on your images.
-        // You must replace the contents of this fetch success block with actual response handling.
-
         /* --- REAL IMPLEMENTATION SHOULD LOOK LIKE THIS ---
         const response = await fetch(API_URL);
         if (!response.ok) throw new Error('Network response was not ok');
@@ -507,6 +493,7 @@ function getSimulatedHistoricalData() {
 // Start the app
 
 document.addEventListener('DOMContentLoaded', init);
+
 
 
 
